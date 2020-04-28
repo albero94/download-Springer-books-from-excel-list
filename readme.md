@@ -1,9 +1,10 @@
 ## Book Downloader
 
-This script downloads the books listed in Springer_Ebooks_short.xlsx. 
-It saves them with the name in the second column and downloads them from the URL in the 5th column.
-
-The other excel file contains the whole list of books, just copy paste the ones you are interested in. Trying to download the whole list at once may cause many of them to fail, at least in the tests I have done. I have had successful downloads in chunks of 100.
+This script can be used to download the Springer Ebooks that are available for free in the Springer_All_Ebooks spreadshit, there are more than 400 books!
+* Include the books you want in the Springer_Download_List.xsls spread sheet
+* Trying to download all of them at once may not work, doing it in chunks of 100 has worked for me
+* It downloads the books in pdf format and save them in a Books folder inside this directory
+* It saves them with the name in the second column and uses the URL in the 5th column.
 
 ## STEPS
 * Make sure you have Node.js and npm already installed in your computer, you can check this by writing `node` and `npm` in the command line and receiving a response. If not, you can download them here: https://nodejs.org/en/download/
