@@ -3,8 +3,8 @@ const fs = require("fs");
 const readXlsxFile = require("read-excel-file/node");
 
 // Define save path and excel file with books
-const PATH = "./../Books/";
-const INPUT_FILE = "./../Springer_Ebooks_short.xlsx";
+const PATH = "./Books/";
+const INPUT_FILE = "./Springer_Download_List.xlsx";
 
 downloadPdfFromExcel();
 
